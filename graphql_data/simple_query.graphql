@@ -1,0 +1,8 @@
+query {
+  getAliens {
+    id
+    firstName
+    lastName
+    planet
+  }
+}

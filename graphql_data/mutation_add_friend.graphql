@@ -1,0 +1,20 @@
+mutation {
+	createFriend(input: {
+    firstName: "Nathan"
+    lastName: "Feitoza"
+    emails: [
+      {email: "contato@nathanfeitoza.com.br"}
+    ]
+    age: 21
+    gender: MALE
+    language: "PT_BR"
+    user: "waropps"
+    contacts: [
+      {firstName: "Test", lastName: "Test"}
+    ]
+  }) {
+	  id
+    firstName
+    lastName
+	}
+}

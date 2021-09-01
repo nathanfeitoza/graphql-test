@@ -1,0 +1,5 @@
+query {
+  getFriend(_id: "1000") {
+    firstName
+  }
+}

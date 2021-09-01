@@ -1,0 +1,14 @@
+mutation {
+	updateFriend(input: {
+    id: "612fbd70c5c742f3344c2620"
+    firstName: "Nathan"
+    lastName: "Henrique"
+    emails: [
+      {email: "contato@nathanfeitoza.com.br"}
+    ]
+  }) {
+	  id
+    firstName
+    lastName
+	}
+}
